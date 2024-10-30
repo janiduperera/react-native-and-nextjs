@@ -2,12 +2,12 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { useFontsNextJs } from "../hooks/useFontsNextJs";
 
-export default function App() {
+export default function About() {
   const { isFontReady } = useFontsNextJs();
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
+      <Text style={styles.text}>About Us Page + Next.js 👋</Text>
     </View>
   );
 }
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    fontSize: 16,
-    fontFamily: "robotoBold",
+    fontSize: 20,
+    fontFamily: "spaceMonoRegular",
   },
 });

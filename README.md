@@ -1,25 +1,33 @@
-# [Next.js Example](https://www.nextjs.org/)
+<div align="center">
 
-<p>
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+  <h3 align="center">Next Js set up with React Native</h3>
 
-This demo shows you how to setup your Next.js website to use packages from the Expo SDK like Camera, Gestures, Permissions, etc... Refer to the [Next adapter docs](https://github.com/expo/expo-cli/tree/main/packages/next-adapter) to learn how to add more React Native packages to your Next.js project.
+   <div align="center">
+    This project is set up to work with React Native and Next Js. With minimum configuration, it can be used to build a native app and a NextJs web app. 
+    </div>
+</div>
 
-### 🏁 New Commands
+### 🏁 Commands for Starting on Web (NextJs)
 
 When targeting web, you'll need to use the Next.js CLI instead of Expo CLI:
+To run on the web with Next js. Run the following commands,
 
-- **Starting web**
+- **1. Install necessary packages**
+- ✅ `npm install expo-modules-core expo-asset expo-font @react-native/assets-registry`
 
-  - 🚫 `yarn expo`
-  - ✅ `yarn next`
+- **2. Starting web**
 
-- **Building web**
-  - 🚫 `yarn expo export:web`
-  - ✅ `yarn next build`
+  - ✅ `npx next dev`
 
-### 👀 More Info
+- **3. Building web**
 
-- [Next Adapter repo](https://github.com/expo/expo-cli/tree/main/packages/next-adapter)
+  - ✅ `npx next build`
+
+### 🏁 Commands for Starting on Native IOS and Android (Expo)
+
+- **1. Uninstall the following packages. They are not needed for the Native Apps**
+- ✅ `npm uninstall expo-modules-core expo-asset expo-font @react-native/assets-registry`
+
+- **2. Starting on Expo Go**
+
+  - ✅ `npx expo start`

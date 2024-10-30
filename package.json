@@ -1,7 +1,15 @@
 {
   "dependencies": {
+    "@react-native/assets-registry": "^0.76.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
     "expo": "^51.0.0",
+    "expo-asset": "^10.0.10",
+    "expo-font": "^12.0.10",
+    "expo-modules-core": "^1.12.26",
     "next": "~14.0.4",
+    "next-fonts": "^1.5.1",
+    "next-images": "^1.8.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.5",
@@ -12,7 +20,8 @@
     "@expo/next-adapter": "^6.0.0"
   },
   "scripts": {
-    "start": "next dev",
+    "start": "next start",
+    "nextdev": "next dev",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
