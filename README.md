@@ -41,6 +41,6 @@ To run on the web with Next js. Run the following commands,
   - ✅ `//export { default } from "./pages"`
   - ✅ `export { default } from "./mobile/_layout"`
 
-- **2. Starting on Expo Go**
+- **3. Starting on Expo Go**
 
   - ✅ `npx expo start`
